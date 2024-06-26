@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Vikrant56/webearl-website/static/css/main.92771b31.css",
-    "main.js": "/Vikrant56/webearl-website/static/js/main.ac63fed3.js",
-    "static/js/453.373f36c3.chunk.js": "/Vikrant56/webearl-website/static/js/453.373f36c3.chunk.js",
-    "static/media/Rectangle.png": "/Vikrant56/webearl-website/static/media/Rectangle.fd14ed08907c1b06a06f.png",
-    "static/media/nike.png": "/Vikrant56/webearl-website/static/media/nike.51ebba0d8858ed0007fd.png",
-    "static/media/award.png": "/Vikrant56/webearl-website/static/media/award.19eddafb10e851d4af28.png",
-    "static/media/shoeimg.jpg": "/Vikrant56/webearl-website/static/media/shoeimg.c0a92cc5b64e6a1a818f.jpg",
-    "static/media/logo.jpg": "/Vikrant56/webearl-website/static/media/logo.207349f6a672dec52a87.jpg",
-    "index.html": "/Vikrant56/webearl-website/index.html",
-    "main.92771b31.css.map": "/Vikrant56/webearl-website/static/css/main.92771b31.css.map",
-    "main.ac63fed3.js.map": "/Vikrant56/webearl-website/static/js/main.ac63fed3.js.map",
-    "453.373f36c3.chunk.js.map": "/Vikrant56/webearl-website/static/js/453.373f36c3.chunk.js.map"
+    "main.css": "/webearl-website/static/css/main.01168c42.css",
+    "main.js": "/webearl-website/static/js/main.c0826641.js",
+    "static/js/453.373f36c3.chunk.js": "/webearl-website/static/js/453.373f36c3.chunk.js",
+    "static/media/Rectangle.png": "/webearl-website/static/media/Rectangle.fd14ed08907c1b06a06f.png",
+    "static/media/nike.png": "/webearl-website/static/media/nike.51ebba0d8858ed0007fd.png",
+    "static/media/award.png": "/webearl-website/static/media/award.19eddafb10e851d4af28.png",
+    "static/media/shoeimg.jpg": "/webearl-website/static/media/shoeimg.c0a92cc5b64e6a1a818f.jpg",
+    "static/media/logo.jpg": "/webearl-website/static/media/logo.207349f6a672dec52a87.jpg",
+    "index.html": "/webearl-website/index.html",
+    "main.01168c42.css.map": "/webearl-website/static/css/main.01168c42.css.map",
+    "main.c0826641.js.map": "/webearl-website/static/js/main.c0826641.js.map",
+    "453.373f36c3.chunk.js.map": "/webearl-website/static/js/453.373f36c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92771b31.css",
-    "static/js/main.ac63fed3.js"
+    "static/css/main.01168c42.css",
+    "static/js/main.c0826641.js"
   ]
 }
