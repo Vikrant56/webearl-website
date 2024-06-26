@@ -1,0 +1,458 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; /* Adjust layout for mobile */
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.sidebar {
+  width: 343px;
+  height: 1085px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.sidebar {
+  width: 343px;
+  height: 1085px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.related-categories {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.categories-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.categories-header h3 {
+  margin: 0;
+}
+
+.category-select {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none; /* Customize arrow */
+  background-image: linear-gradient(rgba(116, 204, 126, 1), rgba(0, 129, 138, 1))
+}
+
+.search-bar {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.category-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 202px);
+  background-color: transparent;
+  box-sizing: border-box;
+  
+}
+
+.shoe-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns for the shoe grid */
+  gap: 5px;
+  justify-content: center;
+  width: 600px;
+  /* background-color: #007bff; */
+  margin-top: -60%;
+  margin-left: 480px;
+}
+
+.shoe-card {
+  /* background: #b51e1e; */
+  border-radius: 16px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 10px; /* Adjusted margin for spacing */
+  padding: 10px;
+  height: 314px; /* Fixed height for consistency */
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.shoe-image-container {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.shoe-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.like-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: red;
+}
+
+.shoe-info {
+  padding-top: 10px;
+  width: 100%;
+}
+
+.shoe-info h4 {
+  font-size: 1em;
+  margin-bottom: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.shoe-info .brand {
+  color: #00aaff;
+  font-size: 0.9em;
+  margin-bottom: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.type-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  width: 100%;
+}
+
+.shoe-info .type {
+  font-size: 0.9em;
+  color: #999;
+  margin: 0;
+}
+
+.shoe-info .price {
+  font-size: 1em;
+  color: #333;
+  font-weight: bold;
+  margin: 0;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #eee;
+  margin: 6px 0;
+}
+
+.category-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8em;
+  color: #666;
+  padding-top: 8px;
+
+}
+
+.category-info span {
+  flex: 1;
+  text-align: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination span {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pagination span.active {
+  background-color: #ffffff;
+  color: black;
+  box-shadow: 0 5px 7px rgba(27, 171, 54, 0.3);
+}
+
+.category-card {
+  width: 565px;
+  height: 238px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.all-content {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.view-all {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.view-all:hover {
+  text-decoration: underline;
+}
+
+.category-table {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.category-table td {
+  padding: 10px;
+}
+
+.category-card-container {
+  display: flex;
+  justify-content: flex-start; /* Align items to the start of the container */
+  width: 100%;
+  margin-left: 20px; /* Add margin to separate from the sidebar */
+}
+
+.small-cards {
+  margin-left: auto; 
+  margin-right: 80px;
+  margin-top: 30px;
+}
+
+.small-card {
+  width: 223px;
+  height: 93px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.small-card1 {
+  width: 221px;
+  height: 71px;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  background-image: linear-gradient(rgba(116, 204, 126, 1), rgba(0, 129, 138, 1));
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 30px;
+}
+
+.card-text {
+  text-align: left;
+  flex-grow: 1;
+}
+
+.card-text h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.designation {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.menu-dots {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Main Content Styles */
+
+.image-container {
+  position: relative;
+}
+
+.border-line-green {
+  display: block;
+  /* Adjust the margin or other properties as needed */
+}
+
+.ellipse {
+  width: 41.06px;
+  height: 41.06px;
+  background: #FFFFFF;
+  margin-left: 1550px;
+  box-shadow: 0.821183px 0.821183px 1.64237px #00818A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.filter-icon {
+  width: 41.06px;
+  height: 41.06px;
+  margin-left: 1550px;
+  margin-bottom: 100px;
+  /* position: absolute; */
+  /* left: 1324.06px; */
+  top: 507px;
+  /* border: 1.5px solid #000000; */
+}
+
+@media (max-width: 1024px) {
+  .shoe-cards {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin: 10px;
+  }
+
+  .main-content {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .category-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .shoe-cards {
+    grid-template-columns: repeat(1, 1fr); /* 1 column for small screens */
+  }
+
+  .small-cards {
+    /* position: relative; */
+   
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links .links,
+  .footer-links .oc-expert,
+  .footer-links .connect {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .category-select,
+  .search-bar {
+    width: 100%;
+    max-width: none;
+  }
+
+  .shoe-cards {
+    grid-template-columns: repeat(1, 1fr); /* 1 column for extra small screens */
+  }
+}

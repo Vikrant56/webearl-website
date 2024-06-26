@@ -1,0 +1,66 @@
+.footer-container {
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.links-section {
+  display: flex;
+  align-items: flex-start; /* Adjust this as needed */
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  margin-right: 100px; /* Adjust the spacing as needed */
+ margin-top: 70px;
+ height: 50px;
+ margin-left: 90px;
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+ 
+}
+
+.column h4 {
+  margin-bottom: 10px;
+  margin-right: 160px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.app-links {
+  display: flex;
+  margin-top: 10px;
+}
+
+.app-links a {
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px;
+  background-color: #f1f1f1; /* Adjust the background color as needed */
+  border-top: 1px solid #ddd; /* Optional: Add a border on top of the footer-bottom */
+}
+
+.footer-bottom p {
+  margin: 0;
+}
