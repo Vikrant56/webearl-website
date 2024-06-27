@@ -4,20 +4,18 @@ import MainContent from './MainContent';
 import Home from './Home';
 import AboutSupplier from './AboutSupplier';
 
-  
+
 function App() {
   return (
-    <BrowserRouter basename='webearl-website'>
+    <BrowserRouter>
       
        
         <Routes>
-        {/* <Header /> */}
           <Route path="/" element={<MainContent />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<AboutSupplier />} />
-          {/* <Footerr />  */}
         </Routes>
-        
+       
      
     </BrowserRouter>
   );
