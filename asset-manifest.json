@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/webearl-website/static/css/main.01168c42.css",
-    "main.js": "/webearl-website/static/js/main.79683093.js",
+    "main.css": "/webearl-website/static/css/main.e3bf439d.css",
+    "main.js": "/webearl-website/static/js/main.c0826641.js",
     "static/js/453.373f36c3.chunk.js": "/webearl-website/static/js/453.373f36c3.chunk.js",
     "static/media/Rectangle.png": "/webearl-website/static/media/Rectangle.fd14ed08907c1b06a06f.png",
     "static/media/nike.png": "/webearl-website/static/media/nike.51ebba0d8858ed0007fd.png",
@@ -9,12 +9,12 @@
     "static/media/shoeimg.jpg": "/webearl-website/static/media/shoeimg.c0a92cc5b64e6a1a818f.jpg",
     "static/media/logo.jpg": "/webearl-website/static/media/logo.207349f6a672dec52a87.jpg",
     "index.html": "/webearl-website/index.html",
-    "main.01168c42.css.map": "/webearl-website/static/css/main.01168c42.css.map",
-    "main.79683093.js.map": "/webearl-website/static/js/main.79683093.js.map",
+    "main.e3bf439d.css.map": "/webearl-website/static/css/main.e3bf439d.css.map",
+    "main.c0826641.js.map": "/webearl-website/static/js/main.c0826641.js.map",
     "453.373f36c3.chunk.js.map": "/webearl-website/static/js/453.373f36c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01168c42.css",
-    "static/js/main.79683093.js"
+    "static/css/main.e3bf439d.css",
+    "static/js/main.c0826641.js"
   ]
 }
