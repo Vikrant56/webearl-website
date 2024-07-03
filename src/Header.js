@@ -12,7 +12,7 @@ const Header = () => {
         <ul>
         
           <li><a href="/home">Home</a></li>
-          <li><a href="/">Free listing</a></li>
+          {/* <li><a href="/">Free listing</a></li> */}
           <li><a href="/">Service</a></li>
           <li><a href="/">Contact US</a></li>
           <li><a href="/">Login/Register</a></li>

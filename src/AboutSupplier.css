@@ -537,4 +537,173 @@ font-weight: bold;
 .copyright span:last-child {
   margin-right: 0;
 }
+@media (max-width: 1200px) {
+  .breadcrumbs {
+    margin-right: 500px;
+  }
+}
+
+@media (max-width: 992px) {
+  .breadcrumbs {
+    margin-right: 300px;
+  }
+  .titllee {
+    margin-right: 550px;
+  }
+}
+
+@media (max-width: 768px) {
+  .breadcrumbs {
+    margin-right: 100px;
+  }
+  .titllee {
+    margin-right: 150px;
+  }
+  .left-section{
+   
+    
+    height: 630px;
+    width: 70%;
+    position: relative;
+    
+  }
+  .right-section{
+    
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 210%;
+  }
+}
+
+@media (max-width: 576px) {
+  .breadcrumbs {
+    margin-right: 50px;
+  }
+  .titllee {
+    margin-right: 50px;
+  }
+}
+@media (max-width: 1200px) {
+  .certificate {
+    margin-right: 150px;
+  }
+}
+
+@media (max-width: 992px) {
+  .certificate {
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .certificate {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .certificate {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .awards {
+    margin-top: 600%;
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 992px) {
+  .awards {
+    margin-right: 50px;
+  }
+  .titllee {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .awards {
+    margin-right: 30px;
+    margin-left: 10px;
+  }
+  .titllee {
+    font-size: 18px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .awards {
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+  .award {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+}
+@media (max-width: 1200px) {
+  .more-productss {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .more-productss {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .more-productss {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 5px;
+  }
+  .productt-card {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .productt-card {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .reviews {
+    padding: 10px;
+    margin-right: 0;
+    width: 90%;
+  }
+
+  .review {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user-image {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .review-content {
+    text-align: center;
+  }
+
+  .review-title {
+    margin-right: 0;
+  }
+
+  .rating {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .descriptionn {
+    font-size: 14px;
+  }
+}
 

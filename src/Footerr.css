@@ -5,27 +5,25 @@
 
 .links-section {
   display: flex;
-  align-items: flex-start; /* Adjust this as needed */
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 20px;
 }
 
 .logo {
-  margin-right: 100px; /* Adjust the spacing as needed */
- margin-top: 70px;
- height: 50px;
- margin-left: 90px;
+  flex: 1 1 100%; 
+  max-width: 200px;
+  margin-bottom: 20px;
 }
 
 .column {
-  flex: 1;
+  flex: 1 1 50%; 
+  max-width: 50%;
   margin: 0 10px;
- 
 }
 
 .column h4 {
   margin-bottom: 10px;
-  margin-right: 160px;
 }
 
 ul {
@@ -47,20 +45,66 @@ ul li {
 
 .app-links {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 10px;
 }
 
 .app-links a {
   margin-right: 10px;
+  margin-bottom: 10px; /* Space between app links */
 }
 
 .footer-bottom {
   text-align: center;
   padding: 10px;
-  background-color: #f1f1f1; /* Adjust the background color as needed */
-  border-top: 1px solid #ddd; /* Optional: Add a border on top of the footer-bottom */
+  background-color: #f1f1f1;
+  border-top: 1px solid #ddd;
 }
 
 .footer-bottom p {
   margin: 0;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+  .links-section {
+    flex-direction: column;
+    align-items: flex-start; 
+  }
+
+  .column {
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+  .links-section {
+    flex-wrap: nowrap; 
+  }
+
+  .column {
+    flex: 1 1 auto; 
+    max-width: none;
+    margin: 0;
+  }
+
+  .logo {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+    margin-right: 0; 
+  }
+
+  .column {
+    padding: 0 10px; 
+  }
+
+  .social-icons {
+    flex-wrap: wrap;
+  }
+}
 }

@@ -1,115 +1,3 @@
-
-// import React from 'react';
-// import './MainContent.css';
-// import './images/Userimg.png'
-// import FilterIcon from "../src/images/FilterIcon.png";
-// import Userimg from "../src/images/Userimg.png";
-
-
-
-// const MainContent = () => {
-//   const shoes = Array(9).fill({
-//     name: 'Round toe leather loafer shoe (Black)',
-//     price: '₹ 1800',
-//     category: 'Shoes',
-//     subcategory: 'Shoes',
-//     brand: 'Rainbow shoes & enterprise',
-//     type: 'Prototype',
-//     image: 'https://media.istockphoto.com/id/628210852/photo/sports-shoe.jpg?s=1024x1024&w=is&k=20&c=mo-WJzQ2KiZHi0A96Lx6pgUwRljiIguUczet4jXZoz0='
-//   });
-
-//   return (
-//     <main className="main-content">
-//       <div className="category-card-container">
-//         <div className="category-card">
-//           <div className="card-header">
-//             <span className="all-content">All Content</span>
-//             <a href="#" className="view-all">View all</a>
-//           </div>
-//           <section>
-//             <table className="category-table">
-//               <tbody>
-//                 <tr>
-//                   <td>Agriculture</td>
-//                   <td>Real estate</td>
-//                   <td>Doctors</td>
-//                   <td>Beauty & Spa</td>
-//                 </tr>
-//                 <tr>
-//                   <td>Agriculture</td>
-//                   <td>Real estate</td>
-//                   <td>Doctors</td>
-//                   <td>Beauty & Spa</td>
-//                 </tr>
-//                 <tr>
-//                   <td>Agriculture</td>
-//                   <td>Real estate</td>
-//                   <td>Doctors</td>
-//                   <td>Beauty & Spa</td>
-//                 </tr>
-//               </tbody>
-//             </table>
-//             <div className="small-cards">
-//             <div className="small-card">
-//                 <img src={ Userimg} alt="User img" className="profile-image" />
-//                 <div className="card-text">
-//                   <h4>Maria</h4>
-//                   <p className="designation">98 Deals</p>
-//                 </div>
-//                 <div className="menu-dots">⋮</div>
-//               </div>
-//               <div className="small-card1">
-//                 Post your requirement
-//               </div>
-//             </div>
-//           </section>
-//         </div>
-//       </div>
-//       <div>
-//         <h2>All Shoes</h2>
-//         <div className="filter-container">
-//           <div className="ellipse">
-//             <img src={FilterIcon} alt="Filter icon" className="filter-icon" />
-//           </div>
-//         </div>
-//       </div>
-//       <div className="shoe-cards">
-//         {shoes.map((shoe, index) => (
-//           <div className="shoe-card" key={index}>
-//             <div className="shoe-image-container">
-//               <img src={shoe.image} alt={shoe.name} className="shoe-image" />
-//             </div>
-//             <button className="like-button">❤️</button>
-//             <div className="shoe-info">
-//               <h4>{shoe.name}</h4>
-//               <p className="brand">{shoe.brand}</p>
-//               <div className="type-price">
-//                 <span className="type">{shoe.type}</span>
-//                 <span className="price">{shoe.price}</span>
-//               </div>
-//               <hr />
-//               <div className="category-info">
-//                 <span>{shoe.category}</span>
-//                 <span>{shoe.subcategory}</span>
-//               </div>
-//             </div>
-//           </div>
-//         ))}
-//       </div>
-//       <div className="pagination">
-//   <span class="active">1</span>
-//   <span>2</span>
-//   <span>3</span>
-//   <span>4</span>
-//   <span>5</span>
-//   <span>&gt;&gt;</span>
-// </div>
-
-//     </main>
-//   );
-// };
-
-// export default MainContent;
 import React from 'react';
 import './MainContent.css';
 import Ellipse1 from "./images/Ellipse1.png";
@@ -178,7 +66,7 @@ const MainContent = () => {
   
  
 
-  <div className="main-content">
+  <div className="main-contentt">
     <div className="category-card-container">
       <div className="category-card">
         <div className="card-header">
@@ -237,7 +125,7 @@ const MainContent = () => {
           </div>
         </div> */}
       </div>
-
+      
       <div className="shoe-cards">
         
         {shoes.map((shoe, index) => (

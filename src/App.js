@@ -8,17 +8,18 @@ import AboutSupplier from './AboutSupplier';
 function App() {
   return (
     <BrowserRouter>
-      
-       
+
+
         <Routes>
           <Route path="/" element={<MainContent />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<AboutSupplier />} />
         </Routes>
-       
-     
+
+
     </BrowserRouter>
   );
 }
 
 export default App;
+

@@ -22,8 +22,8 @@ function Home() {
             <span>&gt;</span>
             <a href="/about"><span>Round toe leather loafer shoe (Black)</span></a>
           </div>
-          <div className="product-info">
-           
+          
+           <div  className="new-productcls" style={{display: "flex"}}>
             <div className="product-image">
               <img src={Group} alt="Product" style={{ width: '350px', height: '400px' }} />
               <div className="additional-product-images">
@@ -33,6 +33,7 @@ function Home() {
               </div>
             
           </div>
+          <div className="product-info">
           <div className="product-details-right">
             <a href="/about"><h2>Round toe leather loafer shoe (Black)</h2></a>
             <button className="wishlist-button">
@@ -58,6 +59,7 @@ function Home() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...
             </div>
           </div>
+        </div>
         </div>
         <div className="supplier-card-container">
           <div className="supplier-card">
@@ -244,16 +246,7 @@ function Home() {
         </div>
       </section>
     </main>
-      {/* <footer className="footer"> 
-        <div className="footer-content">
-          <ul>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Terms & Condition</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
-        </div>
-      </footer> */}
+      
     </div >
   );
 }
