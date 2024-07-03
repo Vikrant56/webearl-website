@@ -11,7 +11,7 @@ function App() {
 
 
         <Routes>
-          <Route path="/" element={<MainContent />} />
+          <Route path="/webearl-website" element={<MainContent />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<AboutSupplier />} />
         </Routes>
